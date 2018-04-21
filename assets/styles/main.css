@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+}
+
+.version {
+	width: 100%;
+	height: 100vh;
+	background-color: #eee;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.version span {
+	font-size: 25pt;
+	color: #f00;
+}
