@@ -7,6 +7,5 @@
 		console.log(text.textContent);
 	};
 
-	showVersion(tag);
-
+	showVersion( tag );
 })();
