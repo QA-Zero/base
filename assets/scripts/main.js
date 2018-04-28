@@ -1,12 +1,11 @@
 (function() {
 	'use strict';
 
+	let tag = document.querySelector( '.version span' );
 
-	showVersion();
+	let showVersion = function (text) {
+		console.log(text.textContent);
+	};
 
-
-	function showVersion() {
-		let tag = document.querySelector( '.version span' );
-		console.log( tag.textContent );
-	}
+	showVersion( tag );
 })();
