@@ -1,4 +1,5 @@
 (function() {
+
 	'use strict';
 
 	let tag = document.querySelector( '.version span' );
@@ -8,4 +9,5 @@
 	};
 
 	showVersion( tag );
+
 })();
